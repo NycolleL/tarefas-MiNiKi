@@ -31,13 +31,15 @@ body {
     display: flex ;
 }
 /* email */
-.barra2 p {
+input {
     color: white;
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     margin-left: 10px;
     opacity: 60%;
     margin-top: 10px;
+    background: none;
+    border: none;
 }
 
 

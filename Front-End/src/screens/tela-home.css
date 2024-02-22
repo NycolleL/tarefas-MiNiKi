@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #865739;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+   
+
+ul, ol, li {
+    list-style: none;
+}
+
+body {
+    background-color: #DFDDDB;
+}
+
+.coluna-um {
+    width: 300px;
+    height: 919px;
+    background-color: #C3B2A8;
+}
+
+.usuario {
+    margin-top: 26px;
+    margin-left: 26px;
+}
+
+.coluna-um h1 {
+    font-family: Jomhuria, serif;
+    font-weight: 400;
+    color: #865739;
+    font-size: 64px;
+    margin-left: 100px;
+    text-align: initial;
+    margin-top: -45px;
+}
+
+.minha-agenda {
+    font-family: Adamina, serif;
+    font-weight: 400;
+    color: #865739;
+}
+
+.paginas {
+    margin-left: 26px;
+    margin-top: 112px;
+}
+
+li {
+    font-family: Adamina, serif;
+    font-weight: 400;
+    color: #865739;
+    margin-top: 20px;
+}
+
+.configuracao h1 {
+    font-family: Adamina, serif;
+    font-weight: 400;
+    color: #865739;
+    font-size: 16px;
+    margin-top: 545px;
+    margin-left: 46px;
+}
+
+.configuracao img {
+    margin-top: -22px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.coluna-dois h1 {
+    font-family: Adamina, serif;
+    font-weight: 400;
+    color: #865739;
+    margin-top: -880px;
+    margin-left: 350px;
+}

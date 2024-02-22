@@ -3,20 +3,26 @@
       {
         "id": 1,
         "nome": "João da Silva",
-        "email": " joao@silva.com",
+        "email": "joao@silva.com",
         "senha": "joao"
       },
       {
         "id": 2,
         "nome": "Maria Salvagni",
-        "email": " maria@salvagni.com",
+        "email": "maria@salvagni.com",
         "senha": "maria"
       },
       {
         "id": 3,
         "nome": "Gabriel Pereira",
-        "email": " gabriel@pereira.com",
+        "email": "gabriel@pereira.com",
         "senha": "gabriel"
+      },    
+      {
+        "id": 4,
+        "nome": "Nycolle Emily",
+        "email": "nycolle@emily.com",
+        "senha": "123"
       }
     ],
 
