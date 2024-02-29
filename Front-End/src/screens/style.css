@@ -21,7 +21,6 @@ body {
     margin-top: -120px;
 }
 
-
 .barra2 {
     width: 375px;
     height: 42px;
@@ -30,6 +29,7 @@ body {
     margin-top: 30px;
     display: flex ;
 }
+
 /* email */
 input {
     color: white;
@@ -37,7 +37,6 @@ input {
     font-size: 18px;
     margin-left: 10px;
     opacity: 60%;
-    margin-top: 10px;
     background: none;
     border: none;
 }
@@ -76,9 +75,19 @@ button {
     height: 50px;
     background: none;
     border: none;
-    margin-left: 1050px;
+    margin-left: 1100px;
     margin-top: -15px;
     display: flex;
+    text-align: end;
+    color: #442512;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.criarConta {
+    margin-left: -24px;
+    margin-top: -27px;
+    font-weight: lighter;
 }
 
 a {
@@ -87,4 +96,10 @@ a {
     color: #865739;
     font-weight: bolder;
 }
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
 

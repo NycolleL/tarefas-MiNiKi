@@ -78,6 +78,15 @@ body {
     margin-top: 10px;
 }
 
+input {
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    opacity: 60%;
+    background: none;
+    border: none;
+}
 
 /* BOTAO DO CRIAR CONTA */
 button {
@@ -86,7 +95,14 @@ button {
     background: none;
     border: none;
     margin-left: 890px;
+    font-weight: bolder;
 }
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
 
 a {
     text-decoration: none;

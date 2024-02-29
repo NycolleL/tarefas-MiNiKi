@@ -10,6 +10,12 @@ body {
     margin-left: 70px;
     margin-top: 20px;
 }
+.logo-miniki img {
+    display: flex;
+    margin-top: -55px;
+    margin-left: -45px; 
+}
+
 .editar  {
     font-size: 45px;
     color: #865739;
@@ -51,6 +57,7 @@ body {
     margin-top: -10px;
     display: flex;
 }
+
 .descricao{
     color: #865739;
     font-size: 30px;
@@ -59,10 +66,11 @@ body {
     margin-top: 50px;
 }
 .descricao img {
-    margin-left: 680px;
+    margin-left: -20px;
     margin-top: -10px;
     display: flex;
 }
+
 .data {
     color: #865739;
     font-size: 30px;
@@ -71,7 +79,7 @@ body {
     margin-top: 50px;
 }
 .data img {
-    margin-left: 680px;
+    margin-left: -20px;
     margin-top: -10px;
     display: flex;
 }

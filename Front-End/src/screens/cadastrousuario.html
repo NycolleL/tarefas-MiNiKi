@@ -11,8 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Jost:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../../js/cadastro.js">
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Jost:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
     <title>Organize suas Tarefas!</title>
+    <script src="../../js/cadastro.js" defer></script>
 </head>
 <!-- PAGINA 2 - TELA CADASTRO -->
 <body>
@@ -24,18 +26,17 @@
     </header>
     <main>
         <div class="barra1">
-            <p>nome completo</p>
+            <input class="nome" type="name" placeholder="Nome" id="nome">
         </div>
         <div class="barra2">
-            <p>e-mail</p>
+            <input class="email" type="email" placeholder="email" id="email">
         </div>
         <div class="barra3">
-            <p>senha</p>
+            <input class="senha" type="password" placeholder="senha" id="senha">
         </div>
         
         <div class="criarConta">
-            <p></p>
-            <button><a href="./tela-home.html">Criar conta</a></button>
+            <button id="criarConta" type="button">Criar conta</button>
         </div> 
 
     </main>
