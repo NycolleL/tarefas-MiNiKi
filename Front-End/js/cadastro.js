@@ -1,11 +1,10 @@
 const button = document.getElementById('criarConta')
 
-async function criarConta(){
+function criarConta(){
 
     const nome = document.getElementById('nome').value
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
-
 
     if(email === '' || senha === '' || nome === ''){
         alert('Preencha os Campos Corretamente....')
@@ -27,11 +26,10 @@ async function criarConta(){
             body: JSON.stringify(newConta)
         }
         
-        fetch(url, options)
+            fetch(url, options)
 
-        alert('User Cadastrado!!')
-        window.location.href = '../screens/tela-home.html'
-
+            window.location.href = '../screens/telahome.html'
+            alert('User Cadastrado!!')
     }
 }
 

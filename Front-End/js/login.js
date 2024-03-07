@@ -5,7 +5,6 @@ async function validarLogin(){
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
 
-
     console.log(email)
 
     if(email === '' || senha === ''){
@@ -17,11 +16,13 @@ async function validarLogin(){
 
         listUsers.forEach((user) => {
             if(email === user.email && senha === user.senha){
+
+                const userId = user.id
+                localStorage.setItem('userId', userId)
                 alert('Usuário Logado com Sucesso !!!')
-                window.location.href = '../screens/tela-home.html'
+                window.location.href = '../screens/telahome.html'
             }
         })
-
     }
 }
 
